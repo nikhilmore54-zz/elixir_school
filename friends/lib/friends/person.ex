@@ -1,5 +1,7 @@
 defmodule Friends.Person do
   use Ecto.Schema
+  import Ecto.Changeset
+
   @fictional_names ["Black Panther", "Wonder Woman", "Spiderman"]
 
   schema "people" do
